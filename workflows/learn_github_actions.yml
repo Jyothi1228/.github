@@ -1,0 +1,5 @@
+name: "learn github actions"
+on:
+ - name: "this is i=my first job"
+job:
+ - name: "This is my first job" 

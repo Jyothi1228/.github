@@ -8,7 +8,7 @@ jobs:
       action:
        uses: my first action
  jobs:
-   my second job
+   my_second_job:
     step:
       - name: my first step on second job
       action:

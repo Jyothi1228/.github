@@ -2,12 +2,16 @@ name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  check-version:
-    runs-on: first 
-    steps:
-      - uses: two
-      - uses: actions/three
-        with:
-          add: 2 + 3
-      - run: add
+  my_first_job:
+    step:
+      - name: My first step on first job
+      action:
+       uses: my first action
+ jobs:
+   my second job
+    step:
+      - name: my first step on second job
+      action:
+        uses: my second action on second job
+      
       
